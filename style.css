@@ -1,0 +1,54 @@
+
+
+
+.cars-wrapper{
+    width: 60%;
+    margin: 100px auto;
+    display: flex;
+
+}
+@media screen and (max-width: 600px) {
+    .cars-wrapper {
+    width: 90%;
+    flex-wrap: wrap;
+    }
+}
+.car-container {
+padding: 50px;
+color:rgb(240, 233, 233);
+}
+.car-container button{
+    padding: 10px;
+    border: 3px solid #fff;
+    background: #fff;
+    border-radius: 20px;
+}
+
+#sedans button:hover {
+    cursor: pointer;
+    background: hsl(31, 77%, 52%);;
+    color: #fff;
+
+}
+.car-container button:hover .suvs{
+    cursor: pointer;
+    background: #fff;
+    color: hsl(184, 100%, 22%);
+
+}
+.car-container button:hover .suvs{
+    cursor: pointer;
+    background: #fff;
+    color: rgb(236, 13, 24);
+
+}
+#sedans{
+    background: hsl(31, 77%, 52%);
+
+}
+#suvs{
+    background: hsl(184, 100%, 22%);
+}
+#other{
+    background: hsl(179, 100%, 13%);
+}
