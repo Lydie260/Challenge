@@ -30,16 +30,16 @@ color:rgb(240, 233, 233);
     color: #fff;
 
 }
-.car-container button:hover .suvs{
+#suvs button:hover{
     cursor: pointer;
-    background: #fff;
-    color: hsl(184, 100%, 22%);
+    background: hsl(184, 100%, 22%);
+    color: #fff;
 
 }
-.car-container button:hover .suvs{
+#other button:hover{
     cursor: pointer;
-    background: #fff;
-    color: rgb(236, 13, 24);
+    background: hsl(179, 100%, 13%);
+    color: #fff;
 
 }
 #sedans{
